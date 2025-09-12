@@ -1,5 +1,7 @@
 ### ReviewHub: Product Review Platform
 
+``` Main git repo - https://github.com/abumahid/ReviewHub-Client ```
+
 A comprehensive platform that allows users to create accounts, share product reviews with ratings, categorize reviews, and interact with posts through voting and commenting. The portal includes premium content features, admin moderation, and a payment system.
 
 Live Link- https://review-hub-s3h.vercel.app/
