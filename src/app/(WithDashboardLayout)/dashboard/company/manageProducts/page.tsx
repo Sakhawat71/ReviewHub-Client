@@ -360,7 +360,7 @@ const ManageProductsPage = () => {
                                     onChange={(e) => setSelectedCategory(e.target.value)}
                                 >
                                     <option value="">All Categories</option>
-                                    {categories.map((category:ICategory) => (
+                                    {categories?.map((category:ICategory) => (
                                         <option key={category?.id} value={category?.id}>{category?.name}</option>
                                     ))}
                                 </select>
@@ -450,7 +450,7 @@ const ManageProductsPage = () => {
                             </thead>
                             <tbody className="bg-white divide-y divide-gray-200">
                             <AnimatePresence>
-                                {filteredAndSortedProducts.map((product, index) => (
+                                {filteredAndSortedProducts?.map((product, index) => (
                                     <motion.tr
                                         key={product.id}
                                         custom={index}
